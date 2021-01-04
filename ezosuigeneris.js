@@ -13,7 +13,7 @@ function callezosuigeneris() {
     document.body.appendChild(s);
 }
 if(window.attachEvent) {
-	window.attachEvent('onload', ezosuigeneris);
+	window.attachEvent('onload',ezosuigeneris);
 } else {
     if(window.onload) {
         var curronload = window.onload;
